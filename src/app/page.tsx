@@ -16,7 +16,7 @@ interface IProduct{
 
 }
 
-export const getProductData =async()=>{
+const getProductData =async()=>{
   const query = `*[_type=='product']{
     price,
     _id,
